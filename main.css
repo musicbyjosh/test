@@ -89,6 +89,14 @@ body {
   transition: 0.3s ease;
 }
 
+.container img{
+	pointer-events: none;
+}
+
+.container img{
+	pointer-events: inherit;
+}
+
 .container:hover img, .container:active img{
 	filter:blur(.3vw);
 }
@@ -105,8 +113,16 @@ body {
   transition: .3s ease-out;
 }
 
+.overlay {
+	pointer-events: none;
+}
+
+.overlay {
+	pointer-events: inherit;
+}
+
 .container:hover .overlay, .container:active .overlay{
-  opacity: 100%;
+	opacity: 100%;
 }
 
 .text {
