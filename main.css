@@ -89,7 +89,7 @@ body {
   transition: 0.3s ease;
 }
 
-.container:hover img{
+.container:hover img, .container:active img{
 	filter:blur(.3vw);
 }
 
@@ -105,7 +105,7 @@ body {
   transition: .3s ease-out;
 }
 
-.container:hover .overlay {
+.container:hover .overlay, .container:active .overlay{
   opacity: 100%;
 }
 
