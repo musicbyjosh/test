@@ -237,7 +237,7 @@ i{
 }
 
 #header2 h4:hover {
-	opacity: .6;
+	opacity: .5;
 	transition: 0.3s ease;
 }
 
@@ -267,6 +267,12 @@ a {
 	width: 10vw;
 	padding: 7vw
 }
+
+@media 
+screen and (max-width: 1000px) {
+	.rap {
+		left: -2.7vw;
+	}
 
 @media 
 screen and (max-width: 700px) {
