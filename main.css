@@ -197,7 +197,7 @@ i{
 }
 
 #header2 h3 {
-	font-size: 40px;
+	font-size: 8vw;
 	color: #1c1b1a;
 	margin: 1vw 0vw;
 }
@@ -271,7 +271,7 @@ a {
 @media 
 screen and (max-width: 1000px) {
 	.rap {
-		left: -2.7vw;
+		left: -3.5vw;
 	}
 
 @media 
@@ -285,11 +285,11 @@ screen and (max-width: 700px) {
     }
 
     .icons {
-    	transform: translate(13vw, -35vw);
+    	transform: translate(7vw, -35vw);
     }
 
     .icons li{
-    	font-size: 4.4vw;
+    	font-size: 5vw;
     }        
 
     .holdin {
@@ -331,10 +331,14 @@ screen and (max-width: 700px) {
     }
 
     .rap {
-    	left: -26.5vw;
+    	left: -28.4vw;
     }
 
     .text {
     	font-size: 4vw
+    }
+
+    #header2 ul {
+    	padding: 0 0;
     }
 }
