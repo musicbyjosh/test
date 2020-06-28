@@ -114,12 +114,13 @@ body {
   transition: .3s ease-out;
 }
 
-.overlay {
+.overlay, .container {
 	pointer-events: none;
 }
 
-.overlay {
+.overlay, .container {
 	pointer-events: inherit;
+}
 }
 
 .container:hover .overlay, .container:active .overlay{
