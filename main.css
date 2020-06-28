@@ -123,7 +123,7 @@ body {
 }
 
 .container:hover .overlay, .container:active .overlay {
-	opacity: 100%;
+	opacity: 100;
 }
 
 .text {
