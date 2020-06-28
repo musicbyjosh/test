@@ -121,7 +121,6 @@ body {
 .overlay, .container {
 	pointer-events: inherit;
 }
-}
 
 .container:hover .overlay, .container:active .overlay{
 	opacity: 100%;
