@@ -99,6 +99,7 @@ body {
 
 .container:hover img, .container:active img{
 	filter:blur(.3vw);
+	transition: 0.3s ease;
 }
 
 
